@@ -15,4 +15,5 @@ export default [
             github:"https://github.com/manmeetdhingra/Rick-and-Morty",
             website:"https://fastidious-bienenstitch-a82462.netlify.app",
         },
+       
 ]

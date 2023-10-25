@@ -19,11 +19,23 @@ button:hover {
 
 }
 
+.nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+}
+
 @media (max-width: 600px) {
 
   .title-main {
     margin-left: auto;
     margin-right: auto;
+    
   }
 
   .sub-titles {
