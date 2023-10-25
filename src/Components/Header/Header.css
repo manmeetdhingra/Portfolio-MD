@@ -1,0 +1,35 @@
+
+  button {
+    margin: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: x-large;
+    border: 2px solid white;
+    padding: 5px;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: 0.05em rgba(0, 0, 0, 0);
+}
+
+button:hover {
+    transition: 0.5s; 
+    border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 5px;
+
+}
+
+@media (max-width: 600px) {
+
+  .title-main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sub-titles {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+  }
+
+}
