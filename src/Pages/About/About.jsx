@@ -1,12 +1,13 @@
 import React from 'react'
 import "./About.css"
+import headshot from "../../assets/Images/2R5A4563.jpg"
 
 function About() {
   return (
     <div className="about-container">
       <div>
       <h1>&lt;&gt; About Me &lt;/&gt;</h1>
-      <img src="src/assets/Images/2R5A4563.jpg"/>
+      <img src={headshot}/>
       <div className="card-container" style={{flexWrap: "nowrap"}}>
       <div className="text" style={{marginRight: "35px", marginLeft: "35px", marginBottom: "50px"}}>
       <h3>- Background : </h3>
