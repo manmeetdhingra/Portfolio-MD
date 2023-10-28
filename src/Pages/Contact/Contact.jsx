@@ -2,8 +2,9 @@ import React from 'react'
 import "./Contact.css"
 import Lottie from 'lottie-react'
 import animation1 from '/Users/msingh/Desktop/Mimo/Portfolio-MD/src/assets/Images/email-animation.json';
-import animation2 from "/Users/msingh/Desktop/Mimo/Portfolio-MD/src/assets/Images/github-animation2.json"
-import animation3 from "/Users/msingh/Desktop/Mimo/Portfolio-MD/src/assets/Images/linkedin-animation.json"
+import animation2 from '/Users/msingh/Desktop/Mimo/Portfolio-MD/src/assets/Images/github-animation2.json';
+import animation3 from '/Users/msingh/Desktop/Mimo/Portfolio-MD/src/assets/Images/linkedin-animation.json';
+
 
 function Contact() {
   return (
