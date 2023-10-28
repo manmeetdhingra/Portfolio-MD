@@ -1,42 +1,60 @@
+
 .form-container{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     width: 60vh;
-    height: auto;
+    height: 43vh;
     margin: auto;
-    margin-top: 7vh;
+    margin-top: 15vh;
     margin-bottom: 40px;
     border: 2px solid black;
     border-radius: 20px;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
     box-shadow: 0px 8px 16px 4px rgba(0,0,0,0.75);
+    overflow: hidden;
 }
 
-form input, textarea{
-    padding: 5px;
-    width: auto;
-    margin: 20px;
-    font-size: large;
-    border-radius: 8px;
-    border: 2px solid;
-    text-indent: 5px;
-    background-color: #ddd;
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  margin-bottom: -80px;
+  margin-right: 10px;
+  
+
 }
 
-.message {
-    height: 35vh;
+a {
+  padding: 8px;
+  font-size: larger;
+  text-decoration: none;
+  color: #000;
+  
+  
 }
 
 .submit-btn {
     width: 105px;
     height: 40px;
     text-indent: 0;
-    margin-bottom: 50px;
     align-self: center;
     cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .submit-btn:hover {
@@ -47,24 +65,30 @@ form input, textarea{
 
 }
 
-@media screen and (max-width: 600px) {
-    .form-container {
-      width: 90%;
-      margin-top: 5vh;
-    }
-  
-    form input, textarea {
-      margin: 10px;
-      font-size: medium;
-    }
-  
-    .message {
-      height: 25vh;
-    }
-  
-    .submit-btn {
-      width: 80px;
-      height: 35px;
-      margin-bottom: 30px;
-    }
+@media screen and (max-width: 650px) {
+
+
+  .form-container {
+    width: 80%;
+    height: fit-content;
+    margin-top: 5vh;
+    
   }
+
+  .icon-container {
+    margin-top: 5vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .submit-btn {
+    width: 90px;
+    font-size: larger;
+    height: 35px;
+    margin: 50px 0 50px;
+  }
+  
+
+}
