@@ -4,7 +4,10 @@ import Lottie from 'lottie-react'
 import animation1 from '../../assets/Images/email-animation.json';
 import animation2 from '../../assets/Images/github-animation2.json';
 import animation3 from '../../assets/Images/linkedin-animation.json';
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/main
 
 
 function Contact() {
