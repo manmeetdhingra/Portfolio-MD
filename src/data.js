@@ -22,7 +22,7 @@ export default [
             description: "This project holds a special place in my portfolio, representing a culmination of my skills in web development, design, and client collaboration. Crafting the Gulshan Radio website provided me with a deep understanding of React's capabilities, particularly in how responsive it can be across different platforms.",
             coverImg: "./GRphoto.png",
             github:"https://github.com/manmeetdhingra/gulshan-radio",
-            website:"www.gulshanradio.co.uk",
+            website:"https://www.gulshanradio.co.uk",
         },
         
        
