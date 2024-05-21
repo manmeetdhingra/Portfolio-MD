@@ -6,7 +6,11 @@ function Main() {
     <div className="container">
       <div className="text-container">
       <h1>Welcome to my digital <span className="underline">w</span>orkspace!</h1>
-      <h4>My name is Manmeet Dhingra, I am a software engineer with a unique background as a Pharmacist. Explore my work and journey through the world of web development that merges the precision of pharmacy with the creativity of coding.</h4>
+      <h4>My name is Manmeet Dhingra, I am a Dynamic Front End Developer with hands-on experience in developing responsive websites, web applications and spearheading collaborative efforts to innovate user experiences.
+      <br/><br/>
+       Adept in formulating Proof-of-Concepts for mobile applications, including  features like camera integration and geolocation. 
+      
+      <br /> <br />I possess certifications in Frontend Web Development Programmes with a Master of Pharmacy from the prestigious University of Birmingham, offering a unique blend of technical expertise and healthcare insights to drive impactful solutions. </h4>
       <h4>My Web Development Stack :</h4>
       <div className="logos">
       <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0 48 48">

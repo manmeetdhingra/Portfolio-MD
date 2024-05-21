@@ -1,6 +1,7 @@
 
   button {
     margin: 20px;
+    margin-top: 10px;
     font-family: 'Cormorant Garamond', serif;
     font-size: x-large;
     border: 2px solid white;
@@ -18,6 +19,7 @@ button:hover {
   padding: 5px;
 
 }
+
 
 .nav-btn {
   padding: 5px;

@@ -14,9 +14,11 @@ function Header() {
       </div>
       <div className="sub-titles">
         <div style={{ display: 'flex' }}>
-          <button onClick={() => navigate('/about')}>About</button>
-          <button onClick={() => navigate('/projects')}>Projects</button>
-          <button onClick={() => navigate('/contact')}>Contact</button>
+          <a><button onClick={() => navigate('/about')}>About</button></a>
+          <a><button onClick={() => navigate('/projects')}>Projects</button></a>
+          <a><button onClick={() => navigate('/contact')}>Contact</button></a>
+          <a className="href-btn" href="/Manmeet Dhingra CV v1.0.pdf" download={"Manmeet Dhingra CV v1.0.pdf"}><button>CV</button></a>
+
         </div>
       </div>
     </div>
